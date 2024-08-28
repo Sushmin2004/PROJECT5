@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <p>Please fill out the form below to register as a student</p>
+    <form>
+        <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter the Full Name" required>
+        </div>
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" placeholder="Enter the Email" required>
+        </div>
+        <div>
+            <label for="DOB">Date of Birth</label>
+            <input type="date" id="DOB" required>
+        </div>
+        <div>
+            <label for="number">Phone Number</label>
+            <input type="number" id="number" placeholder="Enter the Phone Number" required>
+        </div>
+        <div>
+            <label>gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <p>Courses Interested</p>
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="javaScript">
+            <label for="javaScript">JavaScript</label><br>
+            <input type="checkbox" id="python">
+            <label for="python">Python</label><br><br>
+        </div>
+        <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments" placeholder="Enter the comments here"></textarea><br><br>
+        </div>
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button><br><br>
+    </form>
+    <table border="1" cellpadding="5px">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th> Date of Birth</th>
+                <th>Phone Number</th>
+                <th>Gender</th>
+                <th>Courses Interested</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ashik</td>
+                <td>Ashik@gmail.com</td>
+                <td>28-04-2006</td>
+                <td>3214569872</td>
+                <td>Male</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ashika</td>
+                <td>Ashika@gmail.com</td>
+                <td>28-08-2009</td>
+                <td>7414557489</td>
+                <td>Female</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Arthi</td>
+                <td>Arthi@gmail.com</td>
+                <td>29-06-2016</td>
+                <td>8214589472</td>
+                <td>Female</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Naveen</td>
+                <td>Naveen@gmail.com</td>
+                <td>08-11-2019</td>
+                <td>1244569872</td>
+                <td>Male</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Sree</td>
+                <td>Sree@gmail.com</td>
+                <td>15-01-2018</td>
+                <td>3547869872</td>
+                <td>Male</td>
+                <td>Python</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
